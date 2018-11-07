@@ -1,0 +1,158 @@
+/*RESET*/
+h1{font-size: 2.2em; text-transform: uppercase; font-weight: bold;}
+.bg_cinza{background-color: #222222;}
+.bg_cinza_c{background-color: #F7F4EC;}
+.padding{padding: 0 8px;}
+
+
+
+/*MENU*/
+
+.header{padding: 50px 8px; background: url('../img/mt-033-home-header.jpg') center no-repeat; background-position-y: -250px; background-size: cover; background-attachment: fixed;}
+.header img{}
+.header ul{float: right; margin-top: 40px;}
+.header li{display: inline-block; font-size: 1.2em; margin-right: 30px;}
+.header a{padding: 0 2px; color: #fff; text-transform: uppercase;} 
+.header a:hover{color: #2FC5EA; text-decoration: none; }
+.header h1{padding: 10px 0; color: red; text-decoration: none; padding: 150px 0; font-size: 4.5em; text-align: center;}
+.header .login_teste{color: #fff; padding: 10px 20px; border: 2px solid #fff;  }
+.header .login_teste:hover{background-color: #0098da; color: #fff;}
+
+
+/*TITULO*/
+
+.titulo{margin: 50px 0}
+.titulo h1{ text-align: center; font-weight: bold; margin-bottom: 25px}
+.titulo h2{ font-size: 1.3em;}
+
+/*DESTAQUE*/
+
+
+.boxfloat{background-color: #111; padding: 16px; color: #eee; margin-bottom: 16px}
+.boxfloat img{margin: 0 0 15px 0;}
+.boxfloat h1{font-size: 1.3em; margin: 0; padding: 0;}
+
+.subtitle{display: block; float: left; font-size:0.9em; margin: 0; padding: 6px 0 0 0;}
+.valor{display: block; float: right; font-size: 1.5em; color:#2FC5EA; margin: 0; padding: 0; font-weight: bold;}
+
+.bg-blackopacity{background-color: #222222; opacity: 0.75; color: white;}
+
+/*FOOTER*/
+
+.footer{padding: 20px 0 50px 0;}
+.footer h1{font-size: 1.5em; font-weight: bold; margin:  30px 0 15px 0}
+.footer p{ font-size: 1em; margin: 5px 0 0 0}
+.footer button{padding: 10px 20px; color: #fff; margin: 15px 0 0 0; background-color: #2FC5EA; font-size: 1.2em; font-weight: bold;}
+.footer img{ width: 50px; height: 50px;}
+
+/*RODAPÉ*/
+
+.rodape{padding: 8px 0px;text-align: center;}
+.rodape p{color: #fff; font-size: 0.9em; padding: 8px 0 0 0;}
+
+
+
+
+/*EMPRESA*/
+
+/*HEADER*/
+
+.header2{padding: 50px 8px; background: url('../img/mt-033-home-header.jpg') center no-repeat;  background-size: cover; background-attachment: fixed;}
+.header2 img{}
+.header2 ul{float: right; margin-top: 40px;}
+.header2 li{display: inline-block; font-size: 1.2em; margin-right: 30px;}
+.header2 a{padding: 0 2px; color: #fff; text-transform: uppercase;} 
+.header2 a:hover{color: #2FC5EA; text-decoration: none; }
+.header2 .login_teste{color: #fff; padding: 10px 20px; border: 2px solid #fff;  }
+.header2 .login_teste:hover{background-color: #0098da; color: #fff;}
+
+/*TITULO*/
+.titulo2{ padding: 30px 8px; text-align: center;}
+.titulo2 h1{}
+.titulo2 h2{font-size: 1.2em;}
+
+/*EMPRESA*/
+
+.empresa{ padding: 30px 8px; }
+.empresa img{}
+.empresa p{text-align: justify; margin-left: 30px; margin-bottom: 40px; }
+.empresa a{ margin-left: 30px; padding: 20px; border: 2px solid #222222; margin-top: 30px; color:#222222; }
+.empresa a:hover{ margin-left: 30px; text-decoration: none; color: #fff; background-color: #222222;}
+
+/*SERVIÇOS*/
+
+.servicos{text-align: center; padding: 40px 8px;}
+.servicos article{}
+.servicos h1{font-size: 1em; font-weight: bold;}
+.servicos h2{font-size: 1.2em;}
+
+.administracao{display: block; margin: auto; background: url('../icon/administraçao.png') no-repeat center center; background-size: cover; width: 50px; height: 50px;}
+.administracao:hover{background: url('../icon/administração_azul.png') no-repeat center center; background-size: cover; width: 50px; height: 50px;}
+.locacao{display: block; margin: auto; background: url('../icon/locação.png') no-repeat center center; background-size: cover; width: 50px; height: 50px;}
+.locacao:hover{background: url('../icon/locação_azul.png') no-repeat center center; background-size: cover; width: 50px; height: 50px;}
+.vendas{display: block; margin: auto; background: url('../icon/imoveis.png') no-repeat center center; background-size: cover; width: 50px; height: 50px;}
+.vendas:hover{background: url('../icon/imoveis_azul.png') no-repeat center center; background-size: cover; width: 50px; height: 50px;}
+
+/*POR QUE EMPRESA*/
+
+.pqempresa{padding: 0 8px; background: url('../img/backgroun2.jpg') center no-repeat; background-size: cover; color: #fff; background-attachment: fixed;}
+.pqempresa .titulo3{margin-top: 50px; text-align: center; font-size: 2.1em; text-transform: uppercase;}
+.pqempresa .titulo4{text-align: center; margin-bottom: 50px; font-size: 1.6em;}
+.pqempresa .number{font-size: 3em; padding: 15px; margin: 0; background-color: #2FC5EA; text-align: center;}
+.pqempresa h1{font-size: 1.2em; margin: 0 0 10px 0; }
+.pqempresa p{font-size: 1.2em; margin: 0; padding: 0;}
+.darkbox{background-color: black; opacity: 0.75; padding: 20px; margin-bottom: 25px;}
+
+
+@media screen and (max-width: 640px){
+.pqempresa{padding: 0 8px; background: url('../img/backgroun2.jpg') center no-repeat; background-size: cover; color: #fff; background-attachment: fixed;}
+.pqempresa .titulo3{margin-top: 50px; text-align: center; font-size: 2.1em; text-transform: uppercase;}
+.pqempresa .titulo4{text-align: center; margin-bottom: 50px; font-size: 1.6em;}
+.pqempresa h1{font-size: 3.5em; margin: 0 0 20px 0; }
+.pqempresa p{font-size: 3em; margin: 0; padding: 0;}
+.darkbox{background-color: black; opacity: 0.75; padding: 20px; margin-bottom: 25px;}
+    
+}
+
+
+
+
+
+/*FOOTER*/
+.footer2{padding: 30px 8px;}
+.footer2 h1{font-size: 1.5em; font-weight: bold;}
+.footer2 p{ font-size: 1em;}
+.footer2 a{color: #222222;}
+.footer2 a:hover{ text-decoration: none;}
+.footer2 button{padding: 10px 20px; color: #fff; background-color: #2FC5EA; font-size: 1.2em; font-weight: bold;}
+
+
+
+
+/*CONTATO*/
+
+.header3{ padding: 30px 8px; text-align: center;}
+.header3 h1{}
+
+/*MAPA*/
+
+.maps{padding: 0 8px;}
+.maps iframe{ width: 100%; height: 30em;}
+
+/*DADOS*/
+
+.contato3{ padding: 0 8px;}
+
+.contato3 h1{text-align: center; font-size: 1.4em; margin-bottom: 20px;}
+.contato3 img{width: 15px; height: 15px; float: left;}
+.contato3 p{margin-top: 0; margin-left: 70px; font-size: 1.1em;}
+
+
+/*FORMULÁRIO DE CONTATO*/
+
+.main_contato{padding: 30px 8px;}
+.main_contato h1{text-align: center;}
+.main_contato input{padding: 30px 10px; margin-top: 20px;}
+.main_contato .input_g{padding: 150px 10px; margin-bottom: 50px;}
+.main_contato a{padding: 20px 40px; border: 2px solid #222222; color: #222222; text-transform: uppercase; }
+.main_contato a:hover{text-decoration: none; background-color: #222222; color:#fff;}
